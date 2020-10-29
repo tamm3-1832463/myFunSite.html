@@ -1,0 +1,37 @@
+body {
+  line-height: 1.6;
+  color: #fff;
+}
+
+img {
+  display: inline-block;
+}
+
+#intro {
+  height: 100%;
+}
+
+#intro::before {
+  content: '';
+  background: url('https://static.vrv.co/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/639549ea6450ab98b37ce82761b6f4f1.jpg')
+    no-repeat center center/cover;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
+
+#intro .btn:hover {
+  color: skyblue;
+}
+
+.card {
+  height: 100%;
+  text-align: center;
+}
+
+#main-footer a:hover {
+  color: #fff;
+}
